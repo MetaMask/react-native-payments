@@ -42,5 +42,9 @@
       "/examples/",
       "lib/js/__tests__"
     ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
