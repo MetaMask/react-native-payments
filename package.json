@@ -3,10 +3,6 @@
   "version": "2.0.1",
   "main": "lib/js/index.js",
   "scripts": {
-    "run:packager": "cd examples/native && yarn run:packager",
-    "run:ios": "cd examples/native && yarn run:ios",
-    "run:web": "cd examples/web && yarn run:web",
-    "run:demo": "cd examples/native && yarn run:demo",
     "test": "jest"
   },
   "repository": "https://github.com/MetaMask/react-native-payments",
@@ -38,7 +34,6 @@
   "jest": {
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "/examples/",
       "lib/js/__tests__"
     ]
   },
